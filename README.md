@@ -2,7 +2,7 @@
 
 This is a recreation of a simple Sudoku app using React \
 The application uses a dataset of 9 million sudoku puzzles with solutions found on kaggle \
-https://www.kaggle.com/rohanrao/sudoku/discussion/214005 \
+https://www.kaggle.com/rohanrao/sudoku/discussion/214005
 
 ### To Do
 
