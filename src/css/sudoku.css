@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #C4E3F8;
+}
+
+.disable-select {
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.app-wrapper {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  width: 65%;
+  margin: 80px 20% 0 25%;
+}
+
+.timer {
+  text-align: center;
+  font-size: 80px;
+}
+
+.pause-message {
+  height: 25px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.hints-message {
+  height: 22px;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.button-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5px;
+  margin: 0 30px 25px 30px;
+}
+
+.check-hint-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3px;
+  margin: 0 45px 2px 45px;
+}
+
+.clear-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 3px;
+  margin: 0 45px 7px 45px;
+}
+
+.num-pad {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 3px;
+  row-gap: 3px;
+  margin: 0 75px 7px 75px;
+}
+
+.pencil-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  column-gap: 3px;
+  margin: 0 60px 0 60px;
+}
+
+button {
+  text-align: center;
+  border: 3px solid #7FB3D5;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 15px;
+  font-weight: 545;
+  color: #7FB3D5;
+  padding: 12px 0 12px 0;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #D6EAF8;
+  cursor: default;
+}
+
+.clicked {
+  border-color: white;
+  color: white;
+  background: #7FB3D5;
+}
+
+.game-board {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  height: 800px;
+  width: 800px;
+  font-size: 40px;
+  text-align: center;
+  border: 4px solid;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.cell {
+  border: 1px solid black;
+  padding-top: 14px;
+  color: #7FB3D5;
+}
+
+.pencil-cell {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 5px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.guess {
+  min-height: 20px;
+}
+
+.border-right {
+  border-right: 3px solid black;
+}
+
+.border-bottom {
+  border-bottom: 3px solid black;
+}
+
+.default {
+  font-weight: 500;
+  color: black;
+}
+
+.highlighted {
+  background-color: #FAEAA7;
+}
+
+.incorrect {
+  color: #E74C3C;
+  background-color: #F1948A;
+}
+
+.selected {
+  background-color: #ABEBC6;
+}
+
+.hiddenCell-pencil {
+  color: white;
+  background-color: white;
+}
+
+.hiddenCell {
+  background-color: white;
+  color: black;
+}
+
+.completed {
+  font-weight: 500;
+}
+
+.instructions {
+  position: fixed;
+  bottom: 160px;
+  text-align: center;
+}

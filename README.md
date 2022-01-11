@@ -1,8 +1,8 @@
 ## Sudoku
 
 This is a recreation of a simple Sudoku app using React \
-The application uses a dataset of 9 million sudoku puzzles with solutions found on kaggle \
-https://www.kaggle.com/rohanrao/sudoku/discussion/214005
+The application uses a dataset of 1000 sudoku puzzles with solutions extracted from a dataset of 1 million puzzles found on Kaggle \
+https://www.kaggle.com/bryanpark/sudoku
 
 ### To Do
 
